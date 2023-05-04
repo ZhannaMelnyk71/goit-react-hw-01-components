@@ -1,5 +1,6 @@
-import Profile from '../components/Profile'
-import user from '../user'
+import { Profile } from 'components/Profile/Profile'
+import user from 'user.json'
+
 export const App = () => {
   return (
     <div

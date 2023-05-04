@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { App } from 'components/App';
 import './index.css';
-// import userData from './user.json'
+// import user from './user.json'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// ReactDOM.render(<App/>, document.getElementById('root'));
 
 
-// ReactDOM.createRoot(document.getElementById('root')).render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
 // const user = {
 //   username: "Jacques Gluke",
